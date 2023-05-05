@@ -50,3 +50,16 @@ If you expand the "Internet Control Message Protocol" filter and hit "Data" you 
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236506627-f1e31060-4045-4f06-8362-dea0d61e91b6.png)
+
+
+<br>
+<p>
+Next we will set a perpetual ping from VM-1 to VM-2 using the command "ping -t". While this perpetual ping is happening from VM-1 to VM-2 we will change the firewall of VM-2 to BLOCK ICMP Traffic. To edit VM-2s firewall on Azure go to Network Security Groups -> VM2-nsg -> Inbound Security Rules. This displays a list of rules currently on VM-2. We will create a new rule that says ICMP traffic for ANY destination will be denied. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236509131-f74ff6ae-4dc2-41de-a271-5d16fa7331ea.png)
+![image](https://user-images.githubusercontent.com/111653930/236509182-d0aad892-f22b-4ae4-8c99-4401a33f9235.png)
+
+
+
+</p>
