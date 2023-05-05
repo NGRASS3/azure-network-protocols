@@ -35,3 +35,8 @@ First we will create two Virtual Machines on Azure. One machine will be a Linux 
 ![image](https://user-images.githubusercontent.com/111653930/236491025-53d59445-7bfc-4863-87dc-3e0c18e3cbc6.png)
 
 <br />
+
+<br>
+<p>
+To begin we will login to VM-1 and download and install <a href="https://www.wireshark.org">WireShark</a>. Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education.
+</p>
