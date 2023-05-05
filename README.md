@@ -58,8 +58,13 @@ Next we will set a perpetual ping from VM-1 to VM-2 using the command "ping -t".
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236509131-f74ff6ae-4dc2-41de-a271-5d16fa7331ea.png)
-![image](https://user-images.githubusercontent.com/111653930/236509182-d0aad892-f22b-4ae4-8c99-4401a33f9235.png)
+![image](https://user-images.githubusercontent.com/111653930/236509697-2cfd9070-a3be-47e9-ad3a-1f41575aaaed.png)
 
+
+<br>
+<p>
+Once the rule is added on Azure 
+</p>
 
 
 </p>
