@@ -71,10 +71,13 @@ Once the rule is added on Azure we can check back in on our VM-1 to see our perp
 
 
 <p>
-Next we will explore SSH traffic. SSH is essentially like remote desktop without the GUI. Instead of filtering by ICMP we will filter by SSH Traffic. Rather than pinging VM-2 we will SSH into it from VM-1. In powershell type ssh username@ipaddress. You can see immediatley that WireShark starts to capture packets. 
+Next we will explore SSH traffic. SSH is essentially like remote desktop without the GUI. Instead of filtering by ICMP we will filter by SSH Traffic. Rather than pinging VM-2 we will SSH into it from VM-1. In Powershell type ssh username@ipaddress. You can see immediatley that WireShark starts to capture packets. 
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236515356-366ec817-4e94-41e0-8ca0-fb038a5afa3c.png)
 
 
+<p>
+.... 
+</p>
 
