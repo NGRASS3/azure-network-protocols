@@ -92,7 +92,7 @@ We can also observe DNS traffic. We can use the command nslookup www.google.com 
 
 
 <p>
-Finally, if we sorted for RDP we would see a stream of traffic since we are activly connecting to a VM through Remote Desktop to perform the lab. </p>
+Finally, if we sorted for RDP we would see a stream of traffic since we are actively connecting to a VM through Remote Desktop to perform the lab. </p>
 
 
 
