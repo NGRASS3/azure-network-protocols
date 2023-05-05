@@ -84,5 +84,13 @@ Now we will use wireshark to filter for DHCP. DHCP is the Dynamic Host Configura
 ![image](https://user-images.githubusercontent.com/111653930/236552057-ab563cbc-77c0-4113-8176-edecb855a819.png)
 
 
+<p>
+We can also observe DNS traffic. We can use the command nslookup www.google.com which will ask our DNS server what is google.coms IP Address. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236552938-d5c861d0-f41c-46bf-aea9-2e49981d9bec.png)
+
+
+
 
 
