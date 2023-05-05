@@ -38,7 +38,7 @@ First we will create two Virtual Machines on Azure. One machine will be a Linux 
 
 <br>
 <p>
-To begin we will login to VM-1 and download and install <a href="https://www.wireshark.org">WireShark</a>. Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. We can then run WireShark and filter traffic by ICMP. ICMP is a network layer protocol that relays messages concerning network connection issues. Ping uses this protocol, ping tests connectivity between hosts. When we filter wirehsark to only capture ICMP packets and ping the private IP address of our linux machine we can visually see the packets on wireshark.
+To begin we will login to VM-1 and download and install <a href="https://www.wireshark.org">WireShark</a>. Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. We can then run WireShark and filter traffic by ICMP. ICMP is a network layer protocol that relays messages concerning network connection issues. Ping uses this protocol - ping tests connectivity between hosts. When we filter wirehsark to only capture ICMP packets and ping the private IP address of our VM-2 linux machine we can visually see the packets on wireshark.
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236505185-929b1b70-892c-4df8-951f-85176c8af952.png)
