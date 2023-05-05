@@ -43,3 +43,10 @@ To begin we will login to VM-1 and download and install <a href="https://www.wir
 
 ![image](https://user-images.githubusercontent.com/111653930/236505185-929b1b70-892c-4df8-951f-85176c8af952.png)
 
+
+<br>
+<p>
+If you expand the "Internet Control Message Protocol" filter and hit "Data" you can see what was actually sent in each ping. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236506627-f1e31060-4045-4f06-8362-dea0d61e91b6.png)
