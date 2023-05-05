@@ -78,6 +78,11 @@ Next we will explore SSH traffic. SSH is essentially like remote desktop without
 
 
 <p>
-.... 
+Now we will use wireshark to filter for DHCP. DHCP is the Dynamic Host Configuration Protocol this works on ports 67/68. It is used to assign IP addresses. We can force a renewal of an ip address with the command ipconnfig /renew. This will re-issue our ip address to us.  
 </p>
+
+![image](https://user-images.githubusercontent.com/111653930/236552057-ab563cbc-77c0-4113-8176-edecb855a819.png)
+
+
+
 
