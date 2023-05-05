@@ -63,10 +63,12 @@ Next we will set a perpetual ping from VM-1 to VM-2 using the command "ping -t".
 
 <br>
 <p>
-Once the rule is added on Azure we can check back in on our VM-1 to see our perpetual ping of VM-2 has timed out as a result of blocking ICMP traffic.
+Once the rule is added on Azure we can check back in on our VM-1 to see our perpetual ping of VM-2 has timed out as a result of blocking ICMP traffic. If we revert this rule to allow traffic we will see on VM-1 that replys come back through.
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236510574-2dd95b40-983e-49d0-bb9d-6b5ab128a099.png)
+![image](https://user-images.githubusercontent.com/111653930/236511359-f41131ab-2a84-4adc-8335-d3d3576c7ac1.png)
+
 
 
 
