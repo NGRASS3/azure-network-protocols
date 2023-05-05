@@ -21,10 +21,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create 2 VMs, one running Windows and one running Linux. Remote Desktop to VM-1
+- Ping VM-2 from within VM-1. Observe network traffic.
+- Alter VM-2 firewall to block incoming traffic via ICMP. Observe network traffic change. 
+- Observe SSH, DNS, and RDP traffic on Network.
 
 <h2>Actions and Observations</h2>
 
@@ -90,6 +90,9 @@ We can also observe DNS traffic. We can use the command nslookup www.google.com 
 
 ![image](https://user-images.githubusercontent.com/111653930/236552938-d5c861d0-f41c-46bf-aea9-2e49981d9bec.png)
 
+
+<p>
+Finally, if we sorted for RDP we would see a stream of traffic since we are activly connecting to a VM through Remote Desktop to perform the lab. </p>
 
 
 
